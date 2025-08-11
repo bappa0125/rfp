@@ -1,4 +1,3 @@
-import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 import { useRef, useState, useEffect } from 'react'
 import { useInView } from '@/hooks/useInView'
@@ -215,7 +214,7 @@ export default function TeamHero() {
 
                     {/* Level 2 - Technical Lead & Business Analyst */}
                     <div className="flex justify-center gap-12">
-                      {orgMembers.slice(1, 3).map((member, idx) => (
+                      {orgMembers.slice(1, 3).map((member) => (
                         <div key={member.name} className="flex flex-col items-center">
                           <div className={getLevelStyle(2)}>
                             <div className="flex items-center gap-3">
