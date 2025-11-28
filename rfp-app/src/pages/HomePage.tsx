@@ -1,5 +1,4 @@
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
 import TeamHero from '@/components/TeamHero'
 import FeatureCards from '@/components/FeatureCards'
 import { ChevronDown, Users, FileText, DollarSign, MessageSquare } from 'lucide-react'
@@ -128,7 +127,6 @@ export default function HomePage() {
         <TeamHero />
       </section>
       <section id="features">
-        <Hero />
         <FeatureCards />
       </section>
       <section id="pricing" className="py-16 bg-blue-50">
